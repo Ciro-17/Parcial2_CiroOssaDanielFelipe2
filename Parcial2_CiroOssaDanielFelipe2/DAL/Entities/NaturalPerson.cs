@@ -17,7 +17,7 @@ namespace Parcial2_CiroOssaDanielFelipe2.DAL.Entities
         public DateTime? BirthYear { get; set; }
 
         [Display(Name = "Edad")]
-        [MaxLength(3, ErrorMessage = "The field {0} must have a maximum of {1} characters")]
+        //[MaxLength(3, ErrorMessage = "The field {0} must have a maximum of {1} characters")]
         public int Age { get; set; }
     }
 }

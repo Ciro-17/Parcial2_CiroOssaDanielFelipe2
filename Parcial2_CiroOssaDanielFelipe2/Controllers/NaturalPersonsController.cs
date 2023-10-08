@@ -51,6 +51,14 @@ namespace Parcial2_CiroOssaDanielFelipe2.Controllers
             return View();
         }
 
+        private int CalculateAge(int BirthYear)
+        {
+            DateTime fechaActual = DateTime.Today;
+            int Age = fechaActual.Year - BirthYear;
+
+            return Age;
+        }
+
         // POST: NaturalPersons/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
